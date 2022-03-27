@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="aboutPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#dragAction" onMousePressed="#pressAction" prefHeight="303.0" prefWidth="421.0" stylesheets="@interfaceCss.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javam1server.controller.AboutFXMLController">
+   <children>
+      <ToolBar layoutX="6.0" layoutY="6.0" onMouseDragged="#dragAction" onMousePressed="#pressAction" prefHeight="53.0" prefWidth="483.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <Text fill="#413d51" fontSmoothingType="LCD" layoutX="2.0" layoutY="38.0" onMouseDragged="#dragAction" onMousePressed="#pressAction" strokeType="OUTSIDE" strokeWidth="0.0" text="JAVA Socket Server  V 1.0" textAlignment="CENTER" underline="true" wrappingWidth="401.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="3.0">
+               <font>
+                  <Font name="Niagara Solid" size="40.0" />
+               </font>
+            </Text>
+         </items>
+      </ToolBar>
+      <Label alignment="CENTER" layoutX="291.0" layoutY="226.0" prefHeight="23.0" prefWidth="125.0" text="© 2015 by Mauyz " AnchorPane.bottomAnchor="56.0" AnchorPane.leftAnchor="289.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="224.0">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Label>
+      <TextArea editable="false" layoutX="10.0" layoutY="75.0" prefHeight="144.0" prefWidth="405.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="65.0">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font></TextArea>
+      <Button fx:id="closeBtn" layoutX="348.0" layoutY="265.0" mnemonicParsing="false" onAction="#closeBtnAction" prefHeight="31.0" prefWidth="66.0" text="Close" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="346.0" AnchorPane.rightAnchor="9.0" />
+      <Label layoutX="8.0" layoutY="70.0" prefHeight="31.0" prefWidth="405.0" text="  © 2015 ® Eight Group, Incorporation">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="97.0" prefHeight="31.0" prefWidth="405.0" text="  Licence: GPL V3">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="124.0" prefHeight="31.0" prefWidth="143.0" text="  Facebook :">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="177.0" prefHeight="31.0" prefWidth="405.0" text="  Donate: +261349063788">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="150.0" prefHeight="31.0" prefWidth="125.0" text="  Bug report :">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="fbLink" layoutX="125.0" layoutY="124.0" onAction="#fbLinkAction" prefHeight="31.0" prefWidth="195.0" text="Mauyz Tsiorinambinina">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="googleLink" layoutX="127.0" layoutY="150.0" onAction="#googleLinkAction" prefHeight="31.0" prefWidth="195.0" text="tsiorymauyz@gmail.com">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Hyperlink>
+      <Label fx:id="logoLbl" alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="-1.0" layoutY="224.0" prefHeight="65.0" prefWidth="143.0" />
+   </children>
+</AnchorPane>
