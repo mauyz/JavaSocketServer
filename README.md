@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# JavaSocketServer
+# Socket server in Java
 
-Example server socket in JavaFx
+Example server socket in java using JavaFx UI
 
 This is an example client https://github.com/mauyz/JavaSocketClient
-=======
-# JavaSocketServer
->>>>>>> parent of 06cf816 (Update README.md)
-=======
-# JavaSocketServer
->>>>>>> parent of 06cf816 (Update README.md)
